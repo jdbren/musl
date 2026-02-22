@@ -18,3 +18,13 @@ TYPEDEF double double_t;
 #endif
 
 TYPEDEF struct { long long __ll; long double __ld; } max_align_t;
+
+TYPEDEF unsigned int   umode_t;
+TYPEDEF unsigned int   mode_t;
+TYPEDEF unsigned long  ino_t;
+TYPEDEF unsigned int   dev_t;
+TYPEDEF unsigned short nlink_t;
+TYPEDEF unsigned int   blksize_t;
+TYPEDEF unsigned long  blkcnt_t;
+TYPEDEF unsigned short uid_t;
+TYPEDEF unsigned short gid_t;
