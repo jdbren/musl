@@ -61,14 +61,15 @@
 #define __NR_readv 60
 #define __NR_writev 61
 #define __NR_faccessat 62
+#define __NR_vfork 63
+#define __NR_clone 64
+#define __NR_gettid 65
 
 // #define __NR_poll				999
-// #define __NR_clone				999
-// #define __NR_vfork				999
 // All below are unimplemented
-#define __NR_uname				63
-#define __NR_semget				64
-#define __NR_semop				65
+#define __NR_uname				66
+#define __NR_semget				66
+#define __NR_semop				66
 #define __NR_semctl				66
 #define __NR_shmdt				67
 #define __NR_msgget				68
@@ -189,7 +190,7 @@
 #define __NR_afs_syscall			183
 #define __NR_tuxcall				184
 #define __NR_security				185
-#define __NR_gettid					186
+// #define __NR_gettid					186
 #define __NR_readahead				187
 #define __NR_setxattr				188
 #define __NR_lsetxattr				189
