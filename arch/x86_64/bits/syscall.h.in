@@ -207,7 +207,7 @@
 #define __NR_fremovexattr			199
 #define __NR_tkill					200
 #define __NR_setsockopt			    201
-#define __NR_futex					202
+#define __NR_futex					70
 #define __NR_sched_setaffinity		203
 #define __NR_sched_getaffinity		204
 #define __NR_set_thread_area		205
