@@ -67,16 +67,19 @@
 #define __NR_tgkill 66
 #define __NR_mprotect 67
 #define __NR_mremap 68
+#define __NR_set_tid_address 69
+#define __NR_futex 70
+#define __NR_lstat 71
 // #define __NR_poll				999
-#define __NR_syscall 68
+#define __NR_syscall 71
 // All below are unimplemented
-#define __NR_semop				69
-#define __NR_semctl				69
-#define __NR_shmdt				69
-#define __NR_msgget				69
-#define __NR_msgsnd				69
-#define __NR_msgrcv				70
-#define __NR_msgctl				71
+#define __NR_semop				72
+#define __NR_semctl				72
+#define __NR_shmdt				72
+#define __NR_msgget				72
+#define __NR_msgsnd				72
+#define __NR_msgrcv				72
+#define __NR_msgctl				72
 #define __NR_uname				72
 #define __NR_flock				73
 #define __NR_fsync				74
