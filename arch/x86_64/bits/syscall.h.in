@@ -83,7 +83,6 @@
 #define __NR_truncate 81
 #define __NR_ftruncate 82
 #define __NR_rename 83
-#define __NR_syscall 83
 #define __NR_getrlimit 84
 #define __NR_setrlimit 85
 #define __NR_prlimit64 86
