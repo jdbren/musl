@@ -102,6 +102,8 @@
 #define __NR_linkat 100
 #define __NR_symlinkat 101
 #define __NR_readlinkat 102
+#define __NR_times 103
+#define __NR_getrusage 104
 
 // All below are unimplemented
 #define __NR_semop				1075
@@ -126,10 +128,8 @@
 #define __NR_lchown				1075
 #define __NR_umask				1075
 #define __NR_shmctl				1075
-#define __NR_getrusage			1075
-#define __NR_times				1075
 #define __NR_ptrace				1075
-#define __NR_syslog				103
+#define __NR_syslog				1075
 #define __NR_setuid				105
 #define __NR_setgid				106
 #define __NR_sendfile			107
