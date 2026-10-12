@@ -94,6 +94,14 @@
 #define __NR_pselect6 92
 #define __NR_poll 93
 #define __NR_ppoll 94
+#define __NR_openat 95
+#define __NR_mkdirat 96
+#define __NR_newfstatat 97
+#define __NR_unlinkat 98
+#define __NR_renameat 99
+#define __NR_linkat 100
+#define __NR_symlinkat 101
+#define __NR_readlinkat 102
 
 // All below are unimplemented
 #define __NR_semop				1075
@@ -119,8 +127,8 @@
 #define __NR_umask				1075
 #define __NR_shmctl				1075
 #define __NR_getrusage			1075
-#define __NR_times				100
-#define __NR_ptrace				101
+#define __NR_times				1075
+#define __NR_ptrace				1075
 #define __NR_syslog				103
 #define __NR_setuid				105
 #define __NR_setgid				106
@@ -267,17 +275,9 @@
 #define __NR_inotify_add_watch		254
 #define __NR_inotify_rm_watch		255
 #define __NR_migrate_pages			256
-#define __NR_openat					257
-#define __NR_mkdirat				258
 #define __NR_mknodat				259
 #define __NR_fchownat				260
 #define __NR_futimesat				261
-#define __NR_newfstatat				262
-#define __NR_unlinkat				263
-#define __NR_renameat				264
-#define __NR_linkat					265
-#define __NR_symlinkat				266
-#define __NR_readlinkat				267
 #define __NR_fchmodat				268
 #define __NR_unshare				272
 #define __NR_set_robust_list		273
