@@ -90,6 +90,11 @@
 #define __NR_setitimer 88
 #define __NR_clock_nanosleep 89
 #define __NR_sysinfo 90
+#define __NR_select 91
+#define __NR_pselect6 92
+#define __NR_poll 93
+#define __NR_ppoll 94
+
 // All below are unimplemented
 #define __NR_semop				1075
 #define __NR_semctl				1075
@@ -101,20 +106,19 @@
 #define __NR_flock				1075
 #define __NR_wait4				1079
 #define __NR_fchdir				1081
-#define __NR_select				1083
 #define __NR_semget				1075
 #define __NR_mincore			1075
 #define __NR_madvise			1075
 #define __NR_shmget				1075
 #define __NR_shmat				1075
 #define __NR_chmod				1075
-#define __NR_fchmod				91
-#define __NR_chown				92
-#define __NR_fchown				93
-#define __NR_lchown				94
-#define __NR_umask				95
-#define __NR_shmctl				96
-#define __NR_getrusage			98
+#define __NR_fchmod				1075
+#define __NR_chown				1075
+#define __NR_fchown				1075
+#define __NR_lchown				1075
+#define __NR_umask				1075
+#define __NR_shmctl				1075
+#define __NR_getrusage			1075
 #define __NR_times				100
 #define __NR_ptrace				101
 #define __NR_syslog				103
@@ -275,9 +279,6 @@
 #define __NR_symlinkat				266
 #define __NR_readlinkat				267
 #define __NR_fchmodat				268
-// #define __NR_faccessat				269
-#define __NR_pselect6				270
-#define __NR_ppoll					271
 #define __NR_unshare				272
 #define __NR_set_robust_list		273
 #define __NR_get_robust_list		274
