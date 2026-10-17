@@ -106,6 +106,7 @@
 #define __NR_getrusage 104
 #define __NR_utimes 105
 #define __NR_utimensat 106
+#define __NR_pipe2 107
 
 // All below are unimplemented
 #define __NR_semop				1075
@@ -134,7 +135,7 @@
 #define __NR_syslog				1075
 #define __NR_setuid				1075
 #define __NR_setgid				1075
-#define __NR_sendfile			107
+#define __NR_sendfile			1075
 #define __NR_socket				108
 #define __NR_connect			109
 #define __NR_accept				110
@@ -300,7 +301,6 @@
 #define __NR_eventfd2				290
 #define __NR_epoll_create1			291
 #define __NR_dup3					292
-#define __NR_pipe2					293
 #define __NR_inotify_init1			294
 #define __NR_preadv					295
 #define __NR_pwritev				296
